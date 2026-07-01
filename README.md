@@ -24,43 +24,67 @@
 ### Структура проекта
 
 .
+
 ├── CMakeLists.txt # Конфигурация сборки
+
 ├── README.md # Документация
+
 │
+
 ├── Core/ # Базовые классы
+
 │ ├── LinuxDistrib.h
+
 │ ├── LinuxDistrib.cpp
+
 │ ├── DerivedDistribs.h
+
 │ └── DerivedDistribs.cpp
+
 │
+
 ├── Patterns/ # Паттерны проектирования
+
 │ ├── InstallStrategy.h # Интерфейс Strategy
+
 │ ├── InstallStrategies.h # Конкретные стратегии
+
 │ ├── LinuxFactory.h
+
 │ ├── LinuxFactory.cpp
+
 │ └── IteratorDecorators.h # Декораторы итераторов
+
 │
+
 ├── Container/ # Контейнеры
+
 │ ├── SQLiteContainer.h
+
 │ └── SQLiteContainer.cpp
+
 │
+
 ├── Algorithms/ # Алгоритмы
+
 │ └── algorithms.h
+
 │
+
 └── main.cpp # Демонстрация
 
 ## Установка и сборка
 
-# Клонирование
+### Клонирование
 git clone <repository-url>
 cd linux-distrib-system
 
-# Сборка через CMake
+### Сборка через CMake
 mkdir build && cd build
 cmake ..
 make
 
-# Запуск
+### Запуск
 ./linux_distrib
 
 ## Ключевые концепции, демонстрируемые в проекте

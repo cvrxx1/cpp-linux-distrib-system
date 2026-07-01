@@ -76,7 +76,8 @@
 ## Установка и сборка
 
 ### Клонирование
-git clone [<repository-url>](https://github.com/cvrxx1/cpp-linux-distrib-system)
+git clone https://github.com/cvrxx1/cpp-linux-distrib-system
+
 cd linux-distrib-system
 
 ### Сборка через CMake

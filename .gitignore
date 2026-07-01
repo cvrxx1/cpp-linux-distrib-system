@@ -1,0 +1,13 @@
+build/
+result/
+cmake-build-*/
+out/
+.vscode/
+*.o
+*.obj
+*.exe
+*.out
+*.app
+*.log
+*.db
+*.db-journal

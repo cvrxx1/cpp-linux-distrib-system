@@ -71,22 +71,30 @@
 
 │
 
-└── main.cpp # Демонстрация
+└── 
+main.cpp # Демонстрация
 
 ## Установка и сборка
 
 ### Клонирование
+```bash
 git clone https://github.com/cvrxx1/cpp-linux-distrib-system
-
+```
+```bash
 cd linux-distrib-system
+```
 
 ### Сборка через CMake
+```bash
 mkdir build && cd build
 cmake ..
 make
+```
 
 ### Запуск
+```bash
 ./linux_distrib
+```
 
 ## Ключевые концепции, демонстрируемые в проекте
 1. ООП: наследование, полиморфизм, инкапсуляция
